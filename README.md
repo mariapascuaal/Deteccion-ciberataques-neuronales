@@ -8,12 +8,13 @@ El trabajo aborda la **detección del ciberataque neuronal Neuronal Flooding (FL
 
 ## 📁 data/
 
-Contiene los **datasets utilizados en los experimentos**, generados a partir de simulaciones neuronales.
+Contiene los **datasets utilizados en los experimentos**, tanto los de las simulaciones neuronales originales como los generados para la detección de anomalías.
 
 Incluye:
-- Archivos **CSV** con actividad neuronal espontánea y con ataque FLO.
-- Conjuntos de datos separados en **train**, **validation** y **test**.
-- Datos específicos para los estímulos **Flash** y **Movie**.
+- Directorio **CSV**: simulaciones espontáneas y con ataque FLO del estímulo Flash.
+- Directorio **spontaneous_30s_movie_one_resultados**: simulación neuronal espontánea del estímulo Movie.
+- Archivo **spontaneous_30s_movie_one_resultados.zip**: simulaciones con ataque FLO del estímulo Movie.
+- Conjuntos de datos separados en **train**, **validation** y **test**, para cada uno de los estímulos **Flash (supervisado y semisupervisado)** y **Movie**
 
 ---
 
